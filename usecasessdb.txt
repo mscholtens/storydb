@@ -1,0 +1,73 @@
+Use Cases core.StoryDB
+
+Legend:
+x.y = Chapter x, use case y
+(nothing) = new
+IN PROGRESS = in progress, currently working on it
+TESTING = implemented, not yet tested
+DONE = implemented and tested, fully functional
+UPDATE = previous implemented and tested, but not yet tested after an update
+
+**1. Stories**
+
+1.1 Add a person DONE
+  - Select to add a person
+  - Enter properties: Name, nicknames, altnames, sex, title, vip, , placeofbirth, residence, description
+1.2 Edit person DONE
+  - Select to edit a person
+  - Update the person's properties
+1.3 Delete person DONE
+  - Select to delete a person
+  - Enter the person's name, delete the person, update table
+1.4 Add a book DONE
+  - Select to add a book (if no era available, select 'unassigned')
+  - Enter properties: Name, era (from list)
+1.5 Edit a book DONE
+  - Select to edit a book
+  - Update the book's properties
+1.6 Delete a book DONE
+  - Select to delete a book
+  - Enter the book's name, delete the book, update table
+1.7 Search person DONE
+  - Select to search (button)
+  - Enter a name
+  - If a name is found, highlight the row
+1.8 Reset highlights DONE
+  - Select to reset highlights
+  - Reset all highlighted rows
+1.9 Add era DONE
+  - Select to add an era
+  - Enter properties: Name
+1.10 Edit era DONE
+  - Select to edit an era
+  - Update the era's name
+1.11 Delete era DONE
+  - Select to delete an era
+  - Enter era's name, delete era, make all books 'unassigned'
+1.12 Show person appearances per person DONE
+  - Click on the row of the person panel
+  - Show the eras and all books the person appears in
+1.13 Show persons DONE
+  - On the personpanel, all persons should show correctly in the table
+1.14 Show books DONE
+  - On the bookpanel, all books should show correctly in a table for each era
+1.15 Show person appearances per book DONE
+  - Click on the row of the book panel
+  - Show all persons that appear in the book
+1.16 Add appearance on personpanel DONE
+  - On person panel, select person, show all appearances
+  - Select to add appearance (on the bottom of the book listing)
+  - Select book to add
+1.17 Delete appearance on personpanel DONE
+  - On person panel, select person, show all appearances
+  - Select to delete a book (option available on each row of the listing of books)
+
+**2. Program / Menu**
+
+2.1 New
+2.2 Save
+2.3 Load
+2.4 Quit DONE
+2.5 About DONE
+2.6 Person panel DONE
+2.7 Book panel DONE
